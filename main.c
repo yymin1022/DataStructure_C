@@ -3,7 +3,7 @@
 int main() {
     int nums[] = {9, 3, 4, 6, 2, 1, 7, 8, 5};
 
-    for(int i = 0; i < 8; i++){
+    for(int i = 0; i < ; i++){
         int least = i;
 
         for(int j = i + 1; j < 9; j++){
