@@ -123,32 +123,32 @@ DataStructure_C/fast:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/build
 .PHONY : DataStructure_C/fast
 
-main.o: main.c.o
+SelectionSort.o: SelectionSort.c.o
 
-.PHONY : main.o
+.PHONY : SelectionSort.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/main.c.o
-.PHONY : main.c.o
+SelectionSort.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.o
+.PHONY : SelectionSort.c.o
 
-main.i: main.c.i
+SelectionSort.i: SelectionSort.c.i
 
-.PHONY : main.i
+.PHONY : SelectionSort.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/main.c.i
-.PHONY : main.c.i
+SelectionSort.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.i
+.PHONY : SelectionSort.c.i
 
-main.s: main.c.s
+SelectionSort.s: SelectionSort.c.s
 
-.PHONY : main.s
+.PHONY : SelectionSort.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/main.c.s
-.PHONY : main.c.s
+SelectionSort.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.s
+.PHONY : SelectionSort.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure_C"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... SelectionSort.o"
+	@echo "... SelectionSort.i"
+	@echo "... SelectionSort.s"
 .PHONY : help
 
 

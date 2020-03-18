@@ -12,8 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0402c6e2-764b-4fc8-ac97-50f591072a1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/SelectionSort.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584512192714</updated>
       <workItem from="1584512194492" duration="1167000" />
-      <workItem from="1584539175155" duration="836000" />
+      <workItem from="1584539175155" duration="1048000" />
     </task>
     <servers />
   </component>
@@ -65,21 +76,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1584519180634">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584544519487">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584519180634" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1584519180634">
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544519487" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1584544605667">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584519180634" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1584519180633">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544605667" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1584544605665">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584519180633" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1584519180634">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544605665" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1584544605664">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584519180634" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544605664" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1584544605666">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544605666" />
   </component>
 </project>

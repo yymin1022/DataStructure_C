@@ -3,10 +3,10 @@
 int main() {
     int nums[] = {9, 3, 4, 6, 2, 1, 7, 8, 5};
 
-    for(int i = 0; i < ; i++){
+    for(int i = 0; i < sizeof(nums) / sizeof(0); i++){
         int least = i;
 
-        for(int j = i + 1; j < 9; j++){
+        for(int j = i + 1; j < sizeof(nums) / sizeof(0); j++){
             if(nums[j] < nums[least]){
                 least = j;
             }
@@ -21,7 +21,7 @@ int main() {
 
     printf("RESULT\n");
 
-    for(int i = 0; i < 9; i++){
+    for(int i = 0; i < sizeof(nums) / sizeof(0); i++){
         printf("%d ", nums[i]);
     }
 

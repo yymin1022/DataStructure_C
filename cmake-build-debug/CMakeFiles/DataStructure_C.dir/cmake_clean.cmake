@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure_C.dir/main.c.o"
+  "CMakeFiles/DataStructure_C.dir/SelectionSort.c.o"
   "DataStructure_C"
   "DataStructure_C.pdb"
 )

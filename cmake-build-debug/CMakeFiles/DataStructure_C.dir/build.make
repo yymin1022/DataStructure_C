@@ -57,27 +57,27 @@ include CMakeFiles/DataStructure_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure_C.dir/flags.make
 
-CMakeFiles/DataStructure_C.dir/main.c.o: CMakeFiles/DataStructure_C.dir/flags.make
-CMakeFiles/DataStructure_C.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure_C.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_C.dir/main.c.o   -c "/Volumes/Local Disk/AppProjects/DataStructure_C/main.c"
+CMakeFiles/DataStructure_C.dir/SelectionSort.c.o: CMakeFiles/DataStructure_C.dir/flags.make
+CMakeFiles/DataStructure_C.dir/SelectionSort.c.o: ../SelectionSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure_C.dir/SelectionSort.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_C.dir/SelectionSort.c.o   -c "/Volumes/Local Disk/AppProjects/DataStructure_C/SelectionSort.c"
 
-CMakeFiles/DataStructure_C.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_C.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/DataStructure_C/main.c" > CMakeFiles/DataStructure_C.dir/main.c.i
+CMakeFiles/DataStructure_C.dir/SelectionSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_C.dir/SelectionSort.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/DataStructure_C/SelectionSort.c" > CMakeFiles/DataStructure_C.dir/SelectionSort.c.i
 
-CMakeFiles/DataStructure_C.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_C.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/DataStructure_C/main.c" -o CMakeFiles/DataStructure_C.dir/main.c.s
+CMakeFiles/DataStructure_C.dir/SelectionSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_C.dir/SelectionSort.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/DataStructure_C/SelectionSort.c" -o CMakeFiles/DataStructure_C.dir/SelectionSort.c.s
 
 # Object files for target DataStructure_C
 DataStructure_C_OBJECTS = \
-"CMakeFiles/DataStructure_C.dir/main.c.o"
+"CMakeFiles/DataStructure_C.dir/SelectionSort.c.o"
 
 # External object files for target DataStructure_C
 DataStructure_C_EXTERNAL_OBJECTS =
 
-DataStructure_C: CMakeFiles/DataStructure_C.dir/main.c.o
+DataStructure_C: CMakeFiles/DataStructure_C.dir/SelectionSort.c.o
 DataStructure_C: CMakeFiles/DataStructure_C.dir/build.make
 DataStructure_C: CMakeFiles/DataStructure_C.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DataStructure_C"

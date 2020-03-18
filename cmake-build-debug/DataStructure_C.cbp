@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/main.c">
+		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/SelectionSort.c">
 			<Option target="DataStructure_C"/>
 		</Unit>
 		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/CMakeLists.txt">
