@@ -2,21 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define MAX_SIZE 101
+#define MAX_SIZE 5
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
 void sort(int [], int); /* Selection Sort */
 
 void main(void){
-    int i, n;
-    int list[MAX_SIZE];
-
-    printf("Enter the number of numbers to generate : ");
-    scanf("%d", &n);
-    if(n < 1 || n > MAX_SIZE){
-        fprintf(stderr, "Improper value of n\n");
-        exit(EXIT_FAILURE);
-    }
+    int i, n = 5;
+    int list[MAX_SIZE] = {2, 7, 9, 3, 1};
 
     for(i = 0; i < n; i++){
         printf("%d ", list[i]);
@@ -24,7 +17,7 @@ void main(void){
 
     sort(list, n);
 
-    printf("\n Sorted Array : \n");
+    printf("\nSorted Array : \n");
     for(i = 0; i < n; i++){
         printf("%d ", list[i]);
     }
