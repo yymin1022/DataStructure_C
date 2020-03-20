@@ -1,4 +1,6 @@
 "/Users/yymin1022/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Volumes/Local Disk/AppProjects/DataStructure_C"
 -- Configuring done
+CMake Error: Cannot determine link language for target "DataStructure_C".
+CMake Error: CMake can not determine linker language for target: DataStructure_C
 -- Generating done
--- Build files have been written to: /Volumes/Local Disk/AppProjects/DataStructure_C/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.

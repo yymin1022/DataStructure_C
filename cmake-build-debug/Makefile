@@ -123,32 +123,32 @@ DataStructure_C/fast:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/build
 .PHONY : DataStructure_C/fast
 
-Assignment1_Program_1.4.o: Assignment1_Program_1.4.c.o
+Assignment1_Program_1.4_b.o: Assignment1_Program_1.4_b.c.o
 
-.PHONY : Assignment1_Program_1.4.o
+.PHONY : Assignment1_Program_1.4_b.o
 
 # target to build an object file
-Assignment1_Program_1.4.c.o:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.o
-.PHONY : Assignment1_Program_1.4.c.o
+Assignment1_Program_1.4_b.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_b.c.o
+.PHONY : Assignment1_Program_1.4_b.c.o
 
-Assignment1_Program_1.4.i: Assignment1_Program_1.4.c.i
+Assignment1_Program_1.4_b.i: Assignment1_Program_1.4_b.c.i
 
-.PHONY : Assignment1_Program_1.4.i
+.PHONY : Assignment1_Program_1.4_b.i
 
 # target to preprocess a source file
-Assignment1_Program_1.4.c.i:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.i
-.PHONY : Assignment1_Program_1.4.c.i
+Assignment1_Program_1.4_b.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_b.c.i
+.PHONY : Assignment1_Program_1.4_b.c.i
 
-Assignment1_Program_1.4.s: Assignment1_Program_1.4.c.s
+Assignment1_Program_1.4_b.s: Assignment1_Program_1.4_b.c.s
 
-.PHONY : Assignment1_Program_1.4.s
+.PHONY : Assignment1_Program_1.4_b.s
 
 # target to generate assembly for a file
-Assignment1_Program_1.4.c.s:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.s
-.PHONY : Assignment1_Program_1.4.c.s
+Assignment1_Program_1.4_b.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_b.c.s
+.PHONY : Assignment1_Program_1.4_b.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure_C"
-	@echo "... Assignment1_Program_1.4.o"
-	@echo "... Assignment1_Program_1.4.i"
-	@echo "... Assignment1_Program_1.4.s"
+	@echo "... Assignment1_Program_1.4_b.o"
+	@echo "... Assignment1_Program_1.4_b.i"
+	@echo "... Assignment1_Program_1.4_b.s"
 .PHONY : help
 
 
