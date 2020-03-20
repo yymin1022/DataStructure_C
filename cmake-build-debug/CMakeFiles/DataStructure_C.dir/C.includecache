@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1_Program_1.4_b.c
+/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1_Program_1.4_a.c
 stdio.h
+-
+stdlib.h
 -
 math.h
 -
