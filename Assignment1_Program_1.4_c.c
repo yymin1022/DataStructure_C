@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
 #define MAX_SIZE 101
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))

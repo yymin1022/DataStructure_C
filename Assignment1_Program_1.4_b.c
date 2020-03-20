@@ -24,15 +24,15 @@ void main(void){
 }
 
 void sort(int list[], int n){
-    int i, j, min, temp;
+    int i, j, max, temp;
 
     for(i = 0; i < n - 1; i++){
-        min = i;
+        max = i;
         for(j = i + 1; j < n; j++){
-            if(list[j] < list[min]){
-                min = j;
+            if(list[j] > list[max]){
+                max = j;
             }
         }
-        SWAP(list[i], list[min], temp);
+        SWAP(list[i], list[max], temp);
     }
 }
