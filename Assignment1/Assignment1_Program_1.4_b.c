@@ -4,7 +4,7 @@
 #define MAX_SIZE 5
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
-void sort(int [], int); /* Selection Sort */
+void sort(int [], int);
 
 void main(void){
     int i, n = 5;

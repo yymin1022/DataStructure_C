@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/Local Disk/AppProjects/DataStructure_C
+# Install script for directory: /Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/Local Disk/AppProjects/DataStructure_C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

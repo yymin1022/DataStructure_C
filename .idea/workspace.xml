@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="DataStructure_C" targetName="DataStructure_C" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -11,21 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0402c6e2-764b-4fc8-ac97-50f591072a1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructure_C.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure_C.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-    </list>
+    <list default="true" id="0402c6e2-764b-4fc8-ac97-50f591072a1a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +18,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,13 +33,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration name="DataStructure_C" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure_C" TARGET_NAME="DataStructure_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure_C" RUN_TARGET_NAME="DataStructure_C">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,7 +47,7 @@
       <workItem from="1584539175155" duration="1456000" />
       <workItem from="1584550191941" duration="2479000" />
       <workItem from="1584633285025" duration="1100000" />
-      <workItem from="1584682606830" duration="3454000" />
+      <workItem from="1584682606830" duration="3739000" />
     </task>
     <servers />
   </component>
@@ -83,25 +59,25 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584544519487" />
-    <state width="1878" height="265" key="GridCell.Tab.0.bottom" timestamp="1584692488167">
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom" timestamp="1584693249888">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="265" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1584692488167" />
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1584693249888" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584616288974" />
-    <state width="1878" height="265" key="GridCell.Tab.0.center" timestamp="1584692488166">
+    <state width="1878" height="265" key="GridCell.Tab.0.center" timestamp="1584693249887">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="265" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1584692488166" />
+    <state width="1878" height="265" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1584693249887" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584616288973" />
-    <state width="1878" height="265" key="GridCell.Tab.0.left" timestamp="1584692488165">
+    <state width="1878" height="265" key="GridCell.Tab.0.left" timestamp="1584693249886">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="265" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1584692488165" />
+    <state width="1878" height="265" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1584693249886" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584616288972" />
-    <state width="1878" height="265" key="GridCell.Tab.0.right" timestamp="1584692488167">
+    <state width="1878" height="265" key="GridCell.Tab.0.right" timestamp="1584693249887">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="265" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1584692488167" />
+    <state width="1878" height="265" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1584693249887" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584616288973" />
     <state x="625" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1584686290473">
       <screen x="0" y="23" width="1920" height="982" />
