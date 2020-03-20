@@ -123,32 +123,32 @@ DataStructure_C/fast:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/build
 .PHONY : DataStructure_C/fast
 
-SelectionSort.o: SelectionSort.c.o
+Assignment1_Program_1.4.o: Assignment1_Program_1.4.c.o
 
-.PHONY : SelectionSort.o
+.PHONY : Assignment1_Program_1.4.o
 
 # target to build an object file
-SelectionSort.c.o:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.o
-.PHONY : SelectionSort.c.o
+Assignment1_Program_1.4.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.o
+.PHONY : Assignment1_Program_1.4.c.o
 
-SelectionSort.i: SelectionSort.c.i
+Assignment1_Program_1.4.i: Assignment1_Program_1.4.c.i
 
-.PHONY : SelectionSort.i
+.PHONY : Assignment1_Program_1.4.i
 
 # target to preprocess a source file
-SelectionSort.c.i:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.i
-.PHONY : SelectionSort.c.i
+Assignment1_Program_1.4.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.i
+.PHONY : Assignment1_Program_1.4.c.i
 
-SelectionSort.s: SelectionSort.c.s
+Assignment1_Program_1.4.s: Assignment1_Program_1.4.c.s
 
-.PHONY : SelectionSort.s
+.PHONY : Assignment1_Program_1.4.s
 
 # target to generate assembly for a file
-SelectionSort.c.s:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/SelectionSort.c.s
-.PHONY : SelectionSort.c.s
+Assignment1_Program_1.4.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4.c.s
+.PHONY : Assignment1_Program_1.4.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure_C"
-	@echo "... SelectionSort.o"
-	@echo "... SelectionSort.i"
-	@echo "... SelectionSort.s"
+	@echo "... Assignment1_Program_1.4.o"
+	@echo "... Assignment1_Program_1.4.i"
+	@echo "... Assignment1_Program_1.4.s"
 .PHONY : help
 
 
