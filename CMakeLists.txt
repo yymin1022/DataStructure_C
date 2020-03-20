@@ -3,4 +3,4 @@ project(DataStructure_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DataStructure_C Assignment1_Program_1.4.c)
+add_executable(DataStructure_C Assignment1_Program_1.4_a.c)
