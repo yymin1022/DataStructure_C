@@ -150,6 +150,33 @@ Assignment1_Program_1.4_b.c.s:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_b.c.s
 .PHONY : Assignment1_Program_1.4_b.c.s
 
+Assignment1_Program_1.4_c.o: Assignment1_Program_1.4_c.c.o
+
+.PHONY : Assignment1_Program_1.4_c.o
+
+# target to build an object file
+Assignment1_Program_1.4_c.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_c.c.o
+.PHONY : Assignment1_Program_1.4_c.c.o
+
+Assignment1_Program_1.4_c.i: Assignment1_Program_1.4_c.c.i
+
+.PHONY : Assignment1_Program_1.4_c.i
+
+# target to preprocess a source file
+Assignment1_Program_1.4_c.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_c.c.i
+.PHONY : Assignment1_Program_1.4_c.c.i
+
+Assignment1_Program_1.4_c.s: Assignment1_Program_1.4_c.c.s
+
+.PHONY : Assignment1_Program_1.4_c.s
+
+# target to generate assembly for a file
+Assignment1_Program_1.4_c.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_c.c.s
+.PHONY : Assignment1_Program_1.4_c.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... Assignment1_Program_1.4_b.o"
 	@echo "... Assignment1_Program_1.4_b.i"
 	@echo "... Assignment1_Program_1.4_b.s"
+	@echo "... Assignment1_Program_1.4_c.o"
+	@echo "... Assignment1_Program_1.4_c.i"
+	@echo "... Assignment1_Program_1.4_c.s"
 .PHONY : help
 
 
