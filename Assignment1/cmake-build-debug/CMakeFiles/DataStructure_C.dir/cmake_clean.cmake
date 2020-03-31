@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o"
+  "CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o"
+  "CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o"
   "DataStructure_C"
   "DataStructure_C.pdb"
 )

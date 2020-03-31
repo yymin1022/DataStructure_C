@@ -81,6 +81,12 @@
 		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.4_a.c">
 			<Option target="DataStructure_C"/>
 		</Unit>
+		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_a.c">
+			<Option target="DataStructure_C"/>
+		</Unit>
+		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_b.c">
+			<Option target="DataStructure_C"/>
+		</Unit>
 		<Unit filename="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

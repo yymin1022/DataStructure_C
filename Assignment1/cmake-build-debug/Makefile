@@ -150,6 +150,60 @@ Assignment1_Program_1.4_a.c.s:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.s
 .PHONY : Assignment1_Program_1.4_a.c.s
 
+Assignment1_Program_1.7_a.o: Assignment1_Program_1.7_a.c.o
+
+.PHONY : Assignment1_Program_1.7_a.o
+
+# target to build an object file
+Assignment1_Program_1.7_a.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o
+.PHONY : Assignment1_Program_1.7_a.c.o
+
+Assignment1_Program_1.7_a.i: Assignment1_Program_1.7_a.c.i
+
+.PHONY : Assignment1_Program_1.7_a.i
+
+# target to preprocess a source file
+Assignment1_Program_1.7_a.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.i
+.PHONY : Assignment1_Program_1.7_a.c.i
+
+Assignment1_Program_1.7_a.s: Assignment1_Program_1.7_a.c.s
+
+.PHONY : Assignment1_Program_1.7_a.s
+
+# target to generate assembly for a file
+Assignment1_Program_1.7_a.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.s
+.PHONY : Assignment1_Program_1.7_a.c.s
+
+Assignment1_Program_1.7_b.o: Assignment1_Program_1.7_b.c.o
+
+.PHONY : Assignment1_Program_1.7_b.o
+
+# target to build an object file
+Assignment1_Program_1.7_b.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o
+.PHONY : Assignment1_Program_1.7_b.c.o
+
+Assignment1_Program_1.7_b.i: Assignment1_Program_1.7_b.c.i
+
+.PHONY : Assignment1_Program_1.7_b.i
+
+# target to preprocess a source file
+Assignment1_Program_1.7_b.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.i
+.PHONY : Assignment1_Program_1.7_b.c.i
+
+Assignment1_Program_1.7_b.s: Assignment1_Program_1.7_b.c.s
+
+.PHONY : Assignment1_Program_1.7_b.s
+
+# target to generate assembly for a file
+Assignment1_Program_1.7_b.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.s
+.PHONY : Assignment1_Program_1.7_b.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... Assignment1_Program_1.4_a.o"
 	@echo "... Assignment1_Program_1.4_a.i"
 	@echo "... Assignment1_Program_1.4_a.s"
+	@echo "... Assignment1_Program_1.7_a.o"
+	@echo "... Assignment1_Program_1.7_a.i"
+	@echo "... Assignment1_Program_1.7_a.s"
+	@echo "... Assignment1_Program_1.7_b.o"
+	@echo "... Assignment1_Program_1.7_b.i"
+	@echo "... Assignment1_Program_1.7_b.s"
 .PHONY : help
 
 
