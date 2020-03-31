@@ -57,22 +57,9 @@ include CMakeFiles/DataStructure_C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure_C.dir/flags.make
 
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o: CMakeFiles/DataStructure_C.dir/flags.make
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o: ../Assignment1_Program_1.4_a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o   -c "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.4_a.c"
-
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.4_a.c" > CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.i
-
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.4_a.c" -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.s
-
 CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o: CMakeFiles/DataStructure_C.dir/flags.make
 CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o: ../Assignment1_Program_1.7_a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o   -c "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_a.c"
 
 CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.i: cmake_force
@@ -83,34 +70,17 @@ CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_a.c" -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.s
 
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o: CMakeFiles/DataStructure_C.dir/flags.make
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o: ../Assignment1_Program_1.7_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o   -c "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_b.c"
-
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_b.c" > CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.i
-
-CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/Assignment1_Program_1.7_b.c" -o CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.s
-
 # Object files for target DataStructure_C
 DataStructure_C_OBJECTS = \
-"CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o" \
-"CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o" \
-"CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o"
+"CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o"
 
 # External object files for target DataStructure_C
 DataStructure_C_EXTERNAL_OBJECTS =
 
-DataStructure_C: CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.4_a.c.o
 DataStructure_C: CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o
-DataStructure_C: CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_b.c.o
 DataStructure_C: CMakeFiles/DataStructure_C.dir/build.make
 DataStructure_C: CMakeFiles/DataStructure_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable DataStructure_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Local Disk/AppProjects/DataStructure_C/Assignment1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DataStructure_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructure_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
