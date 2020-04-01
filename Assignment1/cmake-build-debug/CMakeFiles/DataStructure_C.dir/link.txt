@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o  -o DataStructure_C 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_a.c.o CMakeFiles/DataStructure_C.dir/Assignment1_Problem1.7.c.o  -o DataStructure_C 

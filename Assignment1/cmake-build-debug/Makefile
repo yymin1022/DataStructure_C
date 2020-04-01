@@ -123,32 +123,59 @@ DataStructure_C/fast:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/build
 .PHONY : DataStructure_C/fast
 
-Assignment1_Program_1.7_a.o: Assignment1_Program_1.7_a.c.o
+Assignment1_Problem1.7.o: Assignment1_Problem1.7.c.o
 
-.PHONY : Assignment1_Program_1.7_a.o
+.PHONY : Assignment1_Problem1.7.o
 
 # target to build an object file
-Assignment1_Program_1.7_a.c.o:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.o
-.PHONY : Assignment1_Program_1.7_a.c.o
+Assignment1_Problem1.7.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem1.7.c.o
+.PHONY : Assignment1_Problem1.7.c.o
 
-Assignment1_Program_1.7_a.i: Assignment1_Program_1.7_a.c.i
+Assignment1_Problem1.7.i: Assignment1_Problem1.7.c.i
 
-.PHONY : Assignment1_Program_1.7_a.i
+.PHONY : Assignment1_Problem1.7.i
 
 # target to preprocess a source file
-Assignment1_Program_1.7_a.c.i:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.i
-.PHONY : Assignment1_Program_1.7_a.c.i
+Assignment1_Problem1.7.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem1.7.c.i
+.PHONY : Assignment1_Problem1.7.c.i
 
-Assignment1_Program_1.7_a.s: Assignment1_Program_1.7_a.c.s
+Assignment1_Problem1.7.s: Assignment1_Problem1.7.c.s
 
-.PHONY : Assignment1_Program_1.7_a.s
+.PHONY : Assignment1_Problem1.7.s
 
 # target to generate assembly for a file
-Assignment1_Program_1.7_a.c.s:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Program_1.7_a.c.s
-.PHONY : Assignment1_Program_1.7_a.c.s
+Assignment1_Problem1.7.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem1.7.c.s
+.PHONY : Assignment1_Problem1.7.c.s
+
+Assignment1_Problem_2_a.o: Assignment1_Problem_2_a.c.o
+
+.PHONY : Assignment1_Problem_2_a.o
+
+# target to build an object file
+Assignment1_Problem_2_a.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_a.c.o
+.PHONY : Assignment1_Problem_2_a.c.o
+
+Assignment1_Problem_2_a.i: Assignment1_Problem_2_a.c.i
+
+.PHONY : Assignment1_Problem_2_a.i
+
+# target to preprocess a source file
+Assignment1_Problem_2_a.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_a.c.i
+.PHONY : Assignment1_Problem_2_a.c.i
+
+Assignment1_Problem_2_a.s: Assignment1_Problem_2_a.c.s
+
+.PHONY : Assignment1_Problem_2_a.s
+
+# target to generate assembly for a file
+Assignment1_Problem_2_a.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_a.c.s
+.PHONY : Assignment1_Problem_2_a.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure_C"
-	@echo "... Assignment1_Program_1.7_a.o"
-	@echo "... Assignment1_Program_1.7_a.i"
-	@echo "... Assignment1_Program_1.7_a.s"
+	@echo "... Assignment1_Problem1.7.o"
+	@echo "... Assignment1_Problem1.7.i"
+	@echo "... Assignment1_Problem1.7.s"
+	@echo "... Assignment1_Problem_2_a.o"
+	@echo "... Assignment1_Problem_2_a.i"
+	@echo "... Assignment1_Problem_2_a.s"
 .PHONY : help
 
 
