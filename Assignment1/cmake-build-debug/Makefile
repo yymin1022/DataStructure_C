@@ -150,6 +150,33 @@ Assignment1_Problem_2_b.c.s:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_b.c.s
 .PHONY : Assignment1_Problem_2_b.c.s
 
+Assignment1_Problem_3.o: Assignment1_Problem_3.c.o
+
+.PHONY : Assignment1_Problem_3.o
+
+# target to build an object file
+Assignment1_Problem_3.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_3.c.o
+.PHONY : Assignment1_Problem_3.c.o
+
+Assignment1_Problem_3.i: Assignment1_Problem_3.c.i
+
+.PHONY : Assignment1_Problem_3.i
+
+# target to preprocess a source file
+Assignment1_Problem_3.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_3.c.i
+.PHONY : Assignment1_Problem_3.c.i
+
+Assignment1_Problem_3.s: Assignment1_Problem_3.c.s
+
+.PHONY : Assignment1_Problem_3.s
+
+# target to generate assembly for a file
+Assignment1_Problem_3.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_3.c.s
+.PHONY : Assignment1_Problem_3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... Assignment1_Problem_2_b.o"
 	@echo "... Assignment1_Problem_2_b.i"
 	@echo "... Assignment1_Problem_2_b.s"
+	@echo "... Assignment1_Problem_3.o"
+	@echo "... Assignment1_Problem_3.i"
+	@echo "... Assignment1_Problem_3.s"
 .PHONY : help
 
 
