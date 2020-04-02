@@ -123,33 +123,6 @@ DataStructure_C/fast:
 	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/build
 .PHONY : DataStructure_C/fast
 
-Assignment1_Problem_2_b.o: Assignment1_Problem_2_b.c.o
-
-.PHONY : Assignment1_Problem_2_b.o
-
-# target to build an object file
-Assignment1_Problem_2_b.c.o:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_b.c.o
-.PHONY : Assignment1_Problem_2_b.c.o
-
-Assignment1_Problem_2_b.i: Assignment1_Problem_2_b.c.i
-
-.PHONY : Assignment1_Problem_2_b.i
-
-# target to preprocess a source file
-Assignment1_Problem_2_b.c.i:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_b.c.i
-.PHONY : Assignment1_Problem_2_b.c.i
-
-Assignment1_Problem_2_b.s: Assignment1_Problem_2_b.c.s
-
-.PHONY : Assignment1_Problem_2_b.s
-
-# target to generate assembly for a file
-Assignment1_Problem_2_b.c.s:
-	$(MAKE) -f CMakeFiles/DataStructure_C.dir/build.make CMakeFiles/DataStructure_C.dir/Assignment1_Problem_2_b.c.s
-.PHONY : Assignment1_Problem_2_b.c.s
-
 Assignment1_Problem_3.o: Assignment1_Problem_3.c.o
 
 .PHONY : Assignment1_Problem_3.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure_C"
-	@echo "... Assignment1_Problem_2_b.o"
-	@echo "... Assignment1_Problem_2_b.i"
-	@echo "... Assignment1_Problem_2_b.s"
 	@echo "... Assignment1_Problem_3.o"
 	@echo "... Assignment1_Problem_3.i"
 	@echo "... Assignment1_Problem_3.s"
