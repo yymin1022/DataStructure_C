@@ -5,6 +5,8 @@ typedef struct{
     int exp;
 } polynomial;
 
+int binSearch(int list[], int start, int end, int searchNum);
+
 int main(){
     int A_coef[3] = {2, 2, 3}; int A_exp[3] = {3, 2, 4};
     int B_coef[3] = {7, 3, 4}; int B_exp[3] = {0, 1, 2};
@@ -21,4 +23,22 @@ int main(){
     }
 
     return 0;
+}
+
+int binSearch(int list[], int start, int end, int searchNum){
+    int middle;
+    
+    while(start >= end) {
+        middle = (start + end) / 2;
+
+        if(list[middle] < searchNum){
+            start = middle + 1;
+        }else if(list[middle] > searchNum){
+            end = middle - 1;
+        }else{
+            return middle;
+        }
+    }
+    
+    return -1;
 }
