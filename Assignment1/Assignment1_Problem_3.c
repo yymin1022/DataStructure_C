@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define COMPARE(x, y) (((x) < (y)) ? -1: ((x) == (y))? 0: 1)
+#define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
 typedef struct{
     int coef;
@@ -8,9 +9,10 @@ typedef struct{
 } polynomial;
 
 int binSearch(polynomial poly[], int start, int end, int searchNum);
+void sortPolynomial(polynomial poly[], int length);
 
 int main(){
-    int A_coef[3] = {4, 3, 1}; int A_exp[3] = {2, 1, 0};
+    int A_coef[3] = {3, 4, 1}; int A_exp[3] = {1, 2, 0};
     int B_coef[3] = {1, 3, 2}; int B_exp[3] = {2, 1, 0};
 
     polynomial A[3];
@@ -25,32 +27,35 @@ int main(){
         B[i].exp = B_exp[i];
     }
 
-    for(int i = 0; i < 9; i++){
-        C[i].coef = 0;
-        C[i].exp = 0;
-    }
+    sortPolynomial(A, 3);
+    sortPolynomial(B, 3);
 
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
-            int indexFromC = binSearch(C, 0, 8, A[i].exp + B[j].exp);
-
-            if(indexFromC != -1){
-                C[indexFromC].coef += A[i].coef * B[j].coef;
-            }else{
-                for(int k = 0; k < 9; k++){
-                    if(C[k].coef == 0 && C[k].exp == 0){
-                        C[k].coef += A[i].coef * B[j].coef;
-                        C[k].exp = A[i].exp + B[j].exp;
-                        break;
-                    }
-                }
-            }
-        }
-    }
-
-    for(int i = 0; i < 9; i++){
-        printf("%dx%d + ", C[i].coef, C[i].exp);
-    }
+//    for(int i = 0; i < 9; i++){
+//        C[i].coef = 0;
+//        C[i].exp = 0;
+//    }
+//
+//    for(int i = 0; i < 3; i++){
+//        for(int j = 0; j < 3; j++){
+//            int indexFromC = binSearch(C, 0, 8, A[i].exp + B[j].exp);
+//
+//            if(indexFromC != -1){
+//                C[indexFromC].coef += A[i].coef * B[j].coef;
+//            }else{
+//                for(int k = 0; k < 9; k++){
+//                    if(C[k].coef == 0 && C[k].exp == 0){
+//                        C[k].coef += A[i].coef * B[j].coef;
+//                        C[k].exp = A[i].exp + B[j].exp;
+//                        break;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//
+//    for(int i = 0; i < 9; i++){
+//        printf("%dx%d + ", C[i].coef, C[i].exp);
+//    }
 
     return 0;
 }
@@ -72,4 +77,19 @@ int binSearch(polynomial poly[], int start, int end, int searchNum) {
         }
     }
     return -1;
+}
+
+void sortPolynomial(polynomial poly[], int length){
+    int i, j, max, temp;
+
+    for(i = 0; i < length; i++){
+        max = i;
+        for(j = i + 1; j < length; j++){
+            if(poly[j].exp > poly[max].exp){
+                max = j;
+            }
+        }
+        SWAP(poly[i].exp, poly[max].exp, temp);
+        SWAP(poly[i].coef, poly[max].coef, temp);
+    }
 }
