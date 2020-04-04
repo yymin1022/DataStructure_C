@@ -4,8 +4,9 @@
 
 int binsearch(int list[], int searchnum, int left, int right) {
     int middle;
-    while (left >= right) {
+    while (left <= right) {
         middle = (left + right) / 2;
+
         switch (COMPARE(list[middle], searchnum)) {
             case -1:
                 left = middle + 1;
