@@ -31,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -48,6 +49,7 @@
       <workItem from="1584550191941" duration="2479000" />
       <workItem from="1584633285025" duration="1100000" />
       <workItem from="1584682606830" duration="3739000" />
+      <workItem from="1586016094092" duration="24000" />
     </task>
     <servers />
   </component>
@@ -79,6 +81,10 @@
     </state>
     <state width="1878" height="265" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1584693249887" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/1920.23.1366.745/0.23.1920.1057@0.23.1920.1057" timestamp="1584616288973" />
+    <state x="653" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586016095977">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="653" y="344" key="com.intellij.ide.util.TipDialog/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1586016095977" />
     <state x="625" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1584686290473">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
