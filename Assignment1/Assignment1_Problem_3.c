@@ -39,8 +39,6 @@ int main(){
         for(int j = 0; j < 3; j++){
             int indexFromC = binSearch(C, 0, 8, A[i].exp + B[j].exp);
 
-            printf("i : %d, j : %d, what : %d, index : %d\n", i, j, A[i].exp + B[j].exp, indexFromC);
-
             if(indexFromC != -1){
                 C[indexFromC].coef += A[i].coef * B[j].coef;
             }else{
@@ -79,12 +77,12 @@ int binSearch(polynomial poly[], int start, int end, int searchNum) {
         middle = (start + end) / 2;
 
         switch (COMPARE(poly[middle].exp, searchNum)) {
-            case -1:
+            case 1:
                 start = middle + 1;
                 break;
             case 0:
                 return middle;
-            case 1:
+            case -1:
                 end = middle - 1;
         }
     }
