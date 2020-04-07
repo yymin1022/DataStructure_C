@@ -14,7 +14,7 @@ void main(void){
     scanf("%d", &n);
     if(n < 1 || n > MAX_SIZE){
         fprintf(stderr, "Improper value of n\n");
-        exit(EXIT_FAILURE);
+//        exit(EXIT_FAILURE);
     }
 
     for(i = 0; i < n; i++){

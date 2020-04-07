@@ -6,7 +6,7 @@
 
 void sort(int [], int);
 
-void main(void){
+int main(void){
     int i, n;
     int list[MAX_SIZE];
 
@@ -28,6 +28,8 @@ void main(void){
         printf("%d ", list[i]);
     }
     printf("\n");
+
+    return 0;
 }
 
 void sort(int list[], int n){
@@ -43,3 +45,4 @@ void sort(int list[], int n){
         SWAP(list[i], list[min], temp);
     }
 }
+

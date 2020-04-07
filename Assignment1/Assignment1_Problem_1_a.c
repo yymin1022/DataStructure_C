@@ -44,3 +44,4 @@ void sort(int list[], int n){
         SWAP(list[i], list[max], temp);
     }
 }
+
