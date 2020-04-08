@@ -19,3 +19,4 @@ int binsearch(int list[], int searchnum, int left, int right) {
     }
     return -1;
 }
+
