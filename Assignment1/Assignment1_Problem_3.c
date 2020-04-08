@@ -95,6 +95,7 @@ void sortPolynomial(polynomial poly[], int length){
 
     for(i = 0; i < length; i++){
         max = i;
+        
         for(j = i + 1; j < length; j++){
             if(poly[j].exp > poly[max].exp){
                 max = j;
