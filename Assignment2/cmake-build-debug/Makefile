@@ -123,32 +123,32 @@ Assignment2/fast:
 	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/build
 .PHONY : Assignment2/fast
 
-main.o: main.c.o
+Assignment2_Problem_2_b.o: Assignment2_Problem_2_b.c.o
 
-.PHONY : main.o
+.PHONY : Assignment2_Problem_2_b.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/main.c.o
-.PHONY : main.c.o
+Assignment2_Problem_2_b.c.o:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_2_b.c.o
+.PHONY : Assignment2_Problem_2_b.c.o
 
-main.i: main.c.i
+Assignment2_Problem_2_b.i: Assignment2_Problem_2_b.c.i
 
-.PHONY : main.i
+.PHONY : Assignment2_Problem_2_b.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/main.c.i
-.PHONY : main.c.i
+Assignment2_Problem_2_b.c.i:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_2_b.c.i
+.PHONY : Assignment2_Problem_2_b.c.i
 
-main.s: main.c.s
+Assignment2_Problem_2_b.s: Assignment2_Problem_2_b.c.s
 
-.PHONY : main.s
+.PHONY : Assignment2_Problem_2_b.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/main.c.s
-.PHONY : main.c.s
+Assignment2_Problem_2_b.c.s:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_2_b.c.s
+.PHONY : Assignment2_Problem_2_b.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Assignment2_Problem_2_b.o"
+	@echo "... Assignment2_Problem_2_b.i"
+	@echo "... Assignment2_Problem_2_b.s"
 .PHONY : help
 
 
