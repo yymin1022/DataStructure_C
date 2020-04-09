@@ -1,12 +1,33 @@
 #include <stdio.h>
 
+#define MAX_SIZE 101
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
 int find_min(int[], int, int);
 void sort(int [], int); /* Selection Sort */
 
 int main(){
-    printf("Hello, World!\n");
+    int i, n;
+    int list[MAX_SIZE];
+
+    printf("Enter the number of numbers to generate : ");
+    scanf("%d", &n);
+    if(n < 1 || n > MAX_SIZE){
+        fprintf(stderr, "Improper value of n\n");
+    }
+
+    for(i = 0; i < n; i++){
+        printf("%d ", list[i]);
+    }
+
+    sort(list, n);
+
+    printf("\n Sorted Array : \n");
+    for(i = 0; i < n; i++){
+        printf("%d ", list[i]);
+    }
+    printf("\n");
+
     return 0;
 }
 
