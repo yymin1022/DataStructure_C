@@ -4,7 +4,7 @@
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
 int find_min(int[], int, int);
-void sort(int [], int); /* Selection Sort */
+void rsort(int [], int); /* Selection Sort */
 
 int main(){
     int i, n;
@@ -20,7 +20,7 @@ int main(){
         printf("%d ", list[i]);
     }
 
-    sort(list, n);
+    rsort(list, n);
 
     printf("\n Sorted Array : \n");
     for(i = 0; i < n; i++){
@@ -41,7 +41,7 @@ int find_min(int list[], int i, int n){// assuming 0 <= i < n
      return min;
 }
 
-void sort(int list[], int n){
+void rsort(int list[], int n){
     int i, j, min, temp;
 
     for(i = 0; i < n - 1; i++){
