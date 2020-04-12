@@ -3,7 +3,9 @@
 void print1(int*, int);
 
 int main() {
-    printf("Hello, World!\n");
+    int one[] = {0, 1, 2, 3, 4};
+
+    print1(one, 5);
     return 0;
 }
 
