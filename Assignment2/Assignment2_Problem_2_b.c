@@ -4,7 +4,7 @@
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
 int find_min(int[], int, int);
-void rsort(int [], int); /* Selection Sort */
+int *rsort(int[], int); /* Selection Sort */
 
 int main(){
     int i, n;
@@ -41,11 +41,14 @@ int find_min(int list[], int i, int n){// assuming 0 <= i < n
      return min;
 }
 
-void rsort(int list[], int n){
-    int i, j, min, temp;
+int *rsort(int list[], int n){
+    int min, temp;
 
-    for(i = 0; i < n - 1; i++){
-        min = find_min(list, i, n);
-        SWAP(list[i], list[min], temp);
+    if(n == 1){
+        return list;
+    }else{
+        min = find_min(list, 0, n);
+        SWAP(list[0], list[min], temp);
+        return rsort(list + 1, n - 1);
     }
 }
