@@ -10,7 +10,7 @@ int main() {
 }
 
 float rsum(float list[], int n){
-    if(n)
-    return rsum(list, n - 1) + list[n - 1];
-        return list[0];
+    if(n) return rsum(list, n - 1) + list[n - 1];
+    //return list[0];
+    return 0;
 }
