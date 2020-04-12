@@ -3,7 +3,7 @@
 #define MAX_SIZE 101
 #define SWAP(x,y,t) ((t) = (x), (x) = (y), (y) = (t))
 
-int find_min(int[], int, int);
+int rfind_min(int[], int, int);
 int *rsort(int[], int); /* Selection Sort */
 
 int main(){
@@ -31,13 +31,19 @@ int main(){
     return 0;
 }
 
-int find_min(int list[], int i, int n){// assuming 0 <= i < n
-    int j, min;
+int rfind_min(int list[], int i, int n){// assuming 0 <= i < n
+    int min;
 
-    min = i;
+    if(i == n - 1){
+        min = i;
+    }else {
+        min = rfind_min(list, i + 1, n);
 
-    for (j = i+1; j < n; j++)
-        if (list[j] < list[min]) min = j;
+        if(list[i] < list[min]){
+            min = i;
+        }
+    }
+
     return min;
 }
 
@@ -47,7 +53,7 @@ int *rsort(int list[], int n){
     if(n == 1){
         return list;
     }else{
-        min = find_min(list, 0, n);
+        min = rfind_min(list, 0, n);
         SWAP(list[0], list[min], temp);
         return rsort(list + 1, n - 1);
     }
