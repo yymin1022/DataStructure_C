@@ -26,6 +26,7 @@ int main(){
 
     c = mult(a, b);
 
+    printf("C(x) = ");
     for (int i = 0; i <= c.degree; i++) {
         if(c.coef[i] != 0){
             printf("%5.1fx^%d ", c.coef[i], i);
