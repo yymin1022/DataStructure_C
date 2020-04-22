@@ -57,27 +57,27 @@ include CMakeFiles/Assignment2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment2.dir/flags.make
 
-CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o: CMakeFiles/Assignment2.dir/flags.make
-CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o: ../Assignment2_Problem_5_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o   -c "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_5_c.c"
+CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o: CMakeFiles/Assignment2.dir/flags.make
+CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o: ../Assignment2_Problem_6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o   -c "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_6.c"
 
-CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_5_c.c" > CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.i
+CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_6.c" > CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.i
 
-CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_5_c.c" -o CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.s
+CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_6.c" -o CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.s
 
 # Object files for target Assignment2
 Assignment2_OBJECTS = \
-"CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o"
+"CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o"
 
 # External object files for target Assignment2
 Assignment2_EXTERNAL_OBJECTS =
 
-Assignment2: CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o
+Assignment2: CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o
 Assignment2: CMakeFiles/Assignment2.dir/build.make
 Assignment2: CMakeFiles/Assignment2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Assignment2"

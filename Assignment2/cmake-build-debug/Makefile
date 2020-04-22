@@ -123,32 +123,32 @@ Assignment2/fast:
 	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/build
 .PHONY : Assignment2/fast
 
-Assignment2_Problem_5_c.o: Assignment2_Problem_5_c.c.o
+Assignment2_Problem_6.o: Assignment2_Problem_6.c.o
 
-.PHONY : Assignment2_Problem_5_c.o
+.PHONY : Assignment2_Problem_6.o
 
 # target to build an object file
-Assignment2_Problem_5_c.c.o:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.o
-.PHONY : Assignment2_Problem_5_c.c.o
+Assignment2_Problem_6.c.o:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.o
+.PHONY : Assignment2_Problem_6.c.o
 
-Assignment2_Problem_5_c.i: Assignment2_Problem_5_c.c.i
+Assignment2_Problem_6.i: Assignment2_Problem_6.c.i
 
-.PHONY : Assignment2_Problem_5_c.i
+.PHONY : Assignment2_Problem_6.i
 
 # target to preprocess a source file
-Assignment2_Problem_5_c.c.i:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.i
-.PHONY : Assignment2_Problem_5_c.c.i
+Assignment2_Problem_6.c.i:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.i
+.PHONY : Assignment2_Problem_6.c.i
 
-Assignment2_Problem_5_c.s: Assignment2_Problem_5_c.c.s
+Assignment2_Problem_6.s: Assignment2_Problem_6.c.s
 
-.PHONY : Assignment2_Problem_5_c.s
+.PHONY : Assignment2_Problem_6.s
 
 # target to generate assembly for a file
-Assignment2_Problem_5_c.c.s:
-	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_5_c.c.s
-.PHONY : Assignment2_Problem_5_c.c.s
+Assignment2_Problem_6.c.s:
+	$(MAKE) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Assignment2_Problem_6.c.s
+.PHONY : Assignment2_Problem_6.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment2"
-	@echo "... Assignment2_Problem_5_c.o"
-	@echo "... Assignment2_Problem_5_c.i"
-	@echo "... Assignment2_Problem_5_c.s"
+	@echo "... Assignment2_Problem_6.o"
+	@echo "... Assignment2_Problem_6.i"
+	@echo "... Assignment2_Problem_6.s"
 .PHONY : help
 
 

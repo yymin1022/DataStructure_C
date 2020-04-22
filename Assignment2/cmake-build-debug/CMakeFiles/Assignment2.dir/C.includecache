@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_5_c.c
+/Volumes/Local Disk/AppProjects/C Projects/DataStructure_C/Assignment2/Assignment2_Problem_6.c
 stdio.h
+-
+stdlib.h
 -
 
