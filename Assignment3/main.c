@@ -23,7 +23,7 @@ element stack[stack_size];
 offsets move[8];
 
 int top = -1;
-int EXIT_ROW = numRow, EXIT_COL = numCol;
+int EXIT_ROW = numRow - 1, EXIT_COL = numCol - 1;
 int maze[numRow][numCol] = {
         { 0,0,1,0,1,1,1,0,1,0 },
         { 1,0,0,1,1,1,0,1,0,1 },
@@ -60,14 +60,14 @@ int main(void){
 }
 
 void path(void){
-    int i, j, row, col, nextRow, nextCol, dir, found = FALSE;
+    int i, row, col, nextRow, nextCol, dir, found = FALSE;
 
     element position;
-    maze[1][1] = 1;
+    maze[0][0] = 1;
     top = 0;
 
-    stack[0].row = 1;
-    stack[0].col = 1;
+    stack[0].row = 0;
+    stack[0].col = 0;
     stack[0].dir = 1;
 
     while(top > -1 && !found){
@@ -83,6 +83,8 @@ void path(void){
 
             if(nextRow == EXIT_ROW && nextCol == EXIT_COL){
                 found = TRUE;
+            }else if(!(0 <= nextRow && nextRow <= numRow - 1) || !(0 <= nextCol && nextCol <= numCol - 1)){
+                ++dir;
             }else if(!maze[nextRow][nextCol]){
                 maze[nextRow][nextCol] = 1;
                 position.row = row;
