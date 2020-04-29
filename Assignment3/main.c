@@ -11,7 +11,6 @@
 typedef struct{
     short int row;
     short int col;
-//    short int dir;
 } element;
 
 typedef struct{
@@ -39,7 +38,6 @@ int maze[numRow][numCol] = {
 
 void path(void);
 void push(element);
-void stackEmpty();
 void stackFull();
 
 element pop();
@@ -60,7 +58,8 @@ int main(void){
 }
 
 void path(void){
-    int i, row, col, nextRow, nextCol, dir, found = FALSE;
+    int i, dir, found = FALSE;
+    short int row, col, nextRow, nextCol;
 
     element position;
     maze[0][0] = 1;
@@ -68,14 +67,13 @@ void path(void){
 
     stack[0].row = 0;
     stack[0].col = 0;
-//    stack[0].dir = 1;
 
     while(top > -1 && !found){
         position = pop();
 
         row = position.row;
         col = position.col;
-        dir = 0;//position.dir;
+        dir = 0;
 
         while(dir < 8 && !found){
             nextRow = row + direction[dir].vert;
@@ -89,7 +87,6 @@ void path(void){
                 maze[nextRow][nextCol] = 1;
                 position.row = row;
                 position.col = col;
-//                position.dir = ++dir;
                 push(position);
 
                 row = nextRow;
@@ -123,18 +120,11 @@ void push(element item){
     stack[++top] = item;
 }
 
-void stackEmpty(){
-
-}
-
 void stackFull(){
     fprintf(stderr, "Stack is full, can not add element");
     exit(EXIT_FAILURE);
 }
 
 element pop(){
-    if(top == -1){
-//        return stackEmpty();
-    }
     return stack[top--];
 }
