@@ -11,7 +11,7 @@
 typedef struct{
     short int row;
     short int col;
-    short int dir;
+//    short int dir;
 } element;
 
 typedef struct{
@@ -20,7 +20,7 @@ typedef struct{
 } offsets;
 
 element stack[stack_size];
-offsets move[8];
+offsets direction[8];
 
 int top = -1;
 int EXIT_ROW = numRow - 1, EXIT_COL = numCol - 1;
@@ -45,14 +45,14 @@ void stackFull();
 element pop();
 
 int main(void){
-    move[0].vert = -1; move[0].horiz = 0;
-    move[1].vert = -1; move[1].horiz = 1;
-    move[2].vert = 0; move[2].horiz = 1;
-    move[3].vert = 1; move[3].horiz = 1;
-    move[4].vert = 1; move[4].horiz = 0;
-    move[5].vert = 1; move[5].horiz = -1;
-    move[6].vert = 0; move[6].horiz = -1;
-    move[7].vert = -1; move[7].horiz = -1;
+    direction[0].vert = -1; direction[0].horiz = 0;
+    direction[1].vert = -1; direction[1].horiz = 1;
+    direction[2].vert = 0; direction[2].horiz = 1;
+    direction[3].vert = 1; direction[3].horiz = 1;
+    direction[4].vert = 1; direction[4].horiz = 0;
+    direction[5].vert = 1; direction[5].horiz = -1;
+    direction[6].vert = 0; direction[6].horiz = -1;
+    direction[7].vert = -1; direction[7].horiz = -1;
 
     path();
 
@@ -68,18 +68,18 @@ void path(void){
 
     stack[0].row = 0;
     stack[0].col = 0;
-    stack[0].dir = 1;
+//    stack[0].dir = 1;
 
     while(top > -1 && !found){
         position = pop();
 
         row = position.row;
         col = position.col;
-        dir = position.dir;
+        dir = 0;//position.dir;
 
         while(dir < 8 && !found){
-            nextRow = row + move[dir].vert;
-            nextCol = col + move[dir].horiz;
+            nextRow = row + direction[dir].vert;
+            nextCol = col + direction[dir].horiz;
 
             if(nextRow == EXIT_ROW && nextCol == EXIT_COL){
                 found = TRUE;
@@ -89,7 +89,7 @@ void path(void){
                 maze[nextRow][nextCol] = 1;
                 position.row = row;
                 position.col = col;
-                position.dir = ++dir;
+//                position.dir = ++dir;
                 push(position);
 
                 row = nextRow;
