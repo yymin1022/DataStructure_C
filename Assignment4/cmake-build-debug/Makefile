@@ -123,32 +123,32 @@ Assignment4/fast:
 	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/build
 .PHONY : Assignment4/fast
 
-Problem4.o: Problem4.c.o
+Problem1.o: Problem1.c.o
 
-.PHONY : Problem4.o
+.PHONY : Problem1.o
 
 # target to build an object file
-Problem4.c.o:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem4.c.o
-.PHONY : Problem4.c.o
+Problem1.c.o:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem1.c.o
+.PHONY : Problem1.c.o
 
-Problem4.i: Problem4.c.i
+Problem1.i: Problem1.c.i
 
-.PHONY : Problem4.i
+.PHONY : Problem1.i
 
 # target to preprocess a source file
-Problem4.c.i:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem4.c.i
-.PHONY : Problem4.c.i
+Problem1.c.i:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem1.c.i
+.PHONY : Problem1.c.i
 
-Problem4.s: Problem4.c.s
+Problem1.s: Problem1.c.s
 
-.PHONY : Problem4.s
+.PHONY : Problem1.s
 
 # target to generate assembly for a file
-Problem4.c.s:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem4.c.s
-.PHONY : Problem4.c.s
+Problem1.c.s:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem1.c.s
+.PHONY : Problem1.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment4"
-	@echo "... Problem4.o"
-	@echo "... Problem4.i"
-	@echo "... Problem4.s"
+	@echo "... Problem1.o"
+	@echo "... Problem1.i"
+	@echo "... Problem1.s"
 .PHONY : help
 
 

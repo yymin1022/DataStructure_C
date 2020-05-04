@@ -57,27 +57,27 @@ include CMakeFiles/Assignment4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment4.dir/flags.make
 
-CMakeFiles/Assignment4.dir/Problem4.c.o: CMakeFiles/Assignment4.dir/flags.make
-CMakeFiles/Assignment4.dir/Problem4.c.o: ../Problem4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment4.dir/Problem4.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment4.dir/Problem4.c.o   -c "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem4.c"
+CMakeFiles/Assignment4.dir/Problem1.c.o: CMakeFiles/Assignment4.dir/flags.make
+CMakeFiles/Assignment4.dir/Problem1.c.o: ../Problem1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment4.dir/Problem1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment4.dir/Problem1.c.o   -c "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem1.c"
 
-CMakeFiles/Assignment4.dir/Problem4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment4.dir/Problem4.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem4.c" > CMakeFiles/Assignment4.dir/Problem4.c.i
+CMakeFiles/Assignment4.dir/Problem1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment4.dir/Problem1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem1.c" > CMakeFiles/Assignment4.dir/Problem1.c.i
 
-CMakeFiles/Assignment4.dir/Problem4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment4.dir/Problem4.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem4.c" -o CMakeFiles/Assignment4.dir/Problem4.c.s
+CMakeFiles/Assignment4.dir/Problem1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment4.dir/Problem1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/Problem1.c" -o CMakeFiles/Assignment4.dir/Problem1.c.s
 
 # Object files for target Assignment4
 Assignment4_OBJECTS = \
-"CMakeFiles/Assignment4.dir/Problem4.c.o"
+"CMakeFiles/Assignment4.dir/Problem1.c.o"
 
 # External object files for target Assignment4
 Assignment4_EXTERNAL_OBJECTS =
 
-Assignment4: CMakeFiles/Assignment4.dir/Problem4.c.o
+Assignment4: CMakeFiles/Assignment4.dir/Problem1.c.o
 Assignment4: CMakeFiles/Assignment4.dir/build.make
 Assignment4: CMakeFiles/Assignment4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Assignment4"
