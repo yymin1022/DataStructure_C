@@ -24,16 +24,16 @@ offsets direction[8];
 int top = -1;
 int EXIT_ROW = numRow - 1, EXIT_COL = numCol - 1;
 int maze[numRow][numCol] = {
-        { 0,0,1,0,1,1,1,0,1,0 },
-        { 1,0,0,1,1,1,0,1,0,1 },
-        { 1,1,0,1,1,0,1,0,1,1 },
-        { 0,0,1,0,1,1,1,0,0,0 },
-        { 0,1,1,0,1,0,1,0,1,0 },
-        { 1,0,1,1,1,1,0,0,1,0 },
-        { 1,1,0,1,0,1,0,0,1,0 },
-        { 1,0,0,0,1,0,1,0,0,0 },
-        { 0,1,0,1,1,1,0,1,1,0 },
-        { 1,0,0,1,1,1,0,0,0,0 }
+        { 0,1,1,1,0,0,1,0,0,1 },
+        { 1,0,1,0,1,0,0,1,1,1 },
+        { 1,1,0,0,0,1,1,0,1,1 },
+        { 1,1,1,1,0,1,1,0,0,1 },
+        { 1,1,1,0,1,0,0,1,1,1 },
+        { 1,1,0,1,0,1,1,1,0,0 },
+        { 1,1,0,0,1,1,1,0,1,1 },
+        { 1,1,1,0,0,0,0,1,1,1 },
+        { 1,1,1,1,1,0,1,0,0,1 },
+        { 1,1,1,1,1,1,0,1,1,0 }
 };
 
 void path(void);
@@ -81,7 +81,8 @@ void path(void){
 
             if(nextRow == EXIT_ROW && nextCol == EXIT_COL){
                 found = TRUE;
-            }else if(!(0 <= nextRow && nextRow <= numRow - 1) || !(0 <= nextCol && nextCol <= numCol - 1)){
+            }else if(!(0 <= nextRow && nextRow <= numRow - 1) ||
+                    !(0 <= nextCol && nextCol <= numCol - 1)){
                 ++dir;
             }else if(!maze[nextRow][nextCol]){
                 maze[nextRow][nextCol] = 1;

@@ -44,16 +44,16 @@ RM = "/Users/yymin1022/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment3"
+CMAKE_SOURCE_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment3/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Assignment3.dir/all
+all: CMakeFiles/Assignment4.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Assignment3.dir/clean
+clean: CMakeFiles/Assignment4.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Assignment3.dir
+# Target rules for target CMakeFiles/Assignment4.dir
 
 # All Build rule for target.
-CMakeFiles/Assignment3.dir/all:
-	$(MAKE) -f CMakeFiles/Assignment3.dir/build.make CMakeFiles/Assignment3.dir/depend
-	$(MAKE) -f CMakeFiles/Assignment3.dir/build.make CMakeFiles/Assignment3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment3/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Assignment3"
-.PHONY : CMakeFiles/Assignment3.dir/all
+CMakeFiles/Assignment4.dir/all:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/depend
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Assignment4"
+.PHONY : CMakeFiles/Assignment4.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Assignment3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment3/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Assignment3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment3/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Assignment3.dir/rule
+CMakeFiles/Assignment4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Assignment4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Assignment4.dir/rule
 
 # Convenience name for target.
-Assignment3: CMakeFiles/Assignment3.dir/rule
+Assignment4: CMakeFiles/Assignment4.dir/rule
 
-.PHONY : Assignment3
+.PHONY : Assignment4
 
 # clean rule for target.
-CMakeFiles/Assignment3.dir/clean:
-	$(MAKE) -f CMakeFiles/Assignment3.dir/build.make CMakeFiles/Assignment3.dir/clean
-.PHONY : CMakeFiles/Assignment3.dir/clean
+CMakeFiles/Assignment4.dir/clean:
+	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/clean
+.PHONY : CMakeFiles/Assignment4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
