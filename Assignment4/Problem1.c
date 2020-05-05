@@ -23,20 +23,30 @@ int main(){
     polynomial A, B, D;
 
     A.degree = A_exp[0];
-    for(int i = 0; i < A_nonzero_terms; i++){
-        A.coef[i] = A_coef[i];
+    for(int i = 0; i <= A.degree; i++){
+        A.coef[i] = 0;
+        for(int j = 0; j < sizeof(A_exp) / sizeof(int); j++){
+            if(A_exp[j] == A.degree - i){
+                A.coef[i] = A_coef[j];
+            }
+        }
     }
 
     B.degree = B_exp[0];
-    for(int i = 0; i < B_nonzero_terms; i++){
-        B.coef[i] = B_coef[i];
+    for(int i = 0; i <= B.degree; i++){
+        B.coef[i] = 0;
+        for(int j = 0; j < sizeof(B_exp) / sizeof(int); j++){
+            if(B_exp[j] == B.degree - i){
+                B.coef[i] = B_coef[j];
+            }
+        }
     }
 
     D = padd(A, B);
 
     for (int i = 0; i <= D.degree; i++) {
         if(D.coef[i] != 0){
-            printf("%3.1fx^%d ", D.coef[i], D_exp[i]);
+            printf("%3.1fx^%d ", D.coef[i], D.degree - i);
             if (i != D.degree) {
                 printf("+ ");
             }
@@ -51,24 +61,15 @@ polynomial padd(polynomial A, polynomial B){
 
     C.degree = (A.degree > B.degree) ? A.degree : B.degree;
 
-    int A_index = 0;
-    int B_index = 0;
-    int C_index = 0;
+    int offsetA = C.degree - A.degree;
+    int offsetB = C.degree - B.degree;
 
-    int A_degree = A.degree;
-    int B_degree = B.degree;
-
-    while(A_index <= A.degree && B_index <= B.degree){
-        if(A_degree > B_degree){
-            C.coef[C_index++] = A.coef[A_index++];
-            A_degree--;
-        }else if(A_degree == B_degree){
-            C.coef[C_index++] = A.coef[A_index++] + B.coef[B_index++];
-            A_degree--;
-            B_degree--;
-        }else{
-            C.coef[C_index++] = B.coef[B_index++];
-            B_degree--;
+    for(int i = 0; i <= C.degree; i++){
+        if(i - offsetA >= 0){
+            C.coef[i] += A.coef[i - offsetA];
+        }
+        if(i - offsetB >= 0){
+            C.coef[i] += B.coef[i - offsetB];
         }
     }
 
