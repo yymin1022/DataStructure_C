@@ -5,6 +5,7 @@
 #define A_nonzero_elements 3
 #define B_nonzero_elements 4
 
+void decTObin(int, int*);
 void EtoA(int*, int*, int*, int);
 
 int AP[(Row*Col)/8] = {129, 8};
@@ -18,14 +19,30 @@ int main(){
     int A_b[Row * Col];
 
     EtoA(AP, AV, A_a, A_nonzero_elements);
-
     return 0;
 }
 
+void decTObin(int dec, int *bin){
+    int i = 0;
+    while(dec != 0){
+        *(bin + i) = dec % 2;
+        dec = dec / 2;
+
+        i++;
+    }
+}
+
 void EtoA(int *P, int *V, int *A, int t){
-    int lengthP = Row * Col / 2;
-    int D[lengthP];
+    int lengthP = Row * Col / 8;
+    int D[lengthP][8];
+
     for(int i = 0; i < lengthP; i++){
-        D[i] = *(P + i);
+        for(int j = 0; j < 8; j++){
+            D[i][j] = 0;
+        }
+    }
+
+    for(int i = 0; i < lengthP; i++){
+        decTObin(P[i], D[i]);
     }
 }
