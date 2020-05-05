@@ -17,8 +17,6 @@ int A_exp[A_nonzero_terms] = {7, 3, 2};
 float B_coef[B_nonzero_terms] = {4.0, 3.0, 7.0, 7.0};
 int B_exp[B_nonzero_terms] = {5, 3, 1, 0};
 
-int D_exp[A_nonzero_terms + B_nonzero_terms] = {};
-
 int main(){
     polynomial A, B, D;
 
@@ -58,7 +56,6 @@ int main(){
 
 polynomial padd(polynomial A, polynomial B){
     polynomial C;
-
     C.degree = (A.degree > B.degree) ? A.degree : B.degree;
 
     int offsetA = C.degree - A.degree;
