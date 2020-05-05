@@ -17,6 +17,8 @@ int A_exp[A_nonzero_terms] = {7, 3, 2};
 float B_coef[B_nonzero_terms] = {4.0, 3.0, 7.0, 7.0};
 int B_exp[B_nonzero_terms] = {5, 3, 1, 0};
 
+int D_exp[A_nonzero_terms + B_nonzero_terms] = {};
+
 int main(){
     polynomial A, B, D;
 
@@ -32,12 +34,11 @@ int main(){
 
     D = padd(A, B);
 
-    printf("C(x) = ");
     for (int i = 0; i <= D.degree; i++) {
         if(D.coef[i] != 0){
-            printf("%5.1fx^%d ", D.coef[i], i);
+            printf("%3.1fx^%d ", D.coef[i], D_exp[i]);
             if (i != D.degree) {
-                printf("+");
+                printf("+ ");
             }
         }
     }
