@@ -18,14 +18,20 @@ int main(){
     int A_a[Row * Col];
     int A_b[Row * Col];
 
+    for(int i = 0; i < Row * Col; i++){
+        A_a[i] = 0;
+        A_b[i] = 0;
+    }
+
     EtoA(AP, AV, A_a, A_nonzero_elements);
+    EtoA(BP, BV, A_b, B_nonzero_elements);
     return 0;
 }
 
 void decTObin(int dec, int *bin){
     int i = 0;
     while(dec != 0){
-        *(bin + i) = dec % 2;
+        *(bin - i + 7) = dec % 2;
         dec = dec / 2;
 
         i++;
@@ -33,6 +39,7 @@ void decTObin(int dec, int *bin){
 }
 
 void EtoA(int *P, int *V, int *A, int t){
+    int count = 0;
     int lengthP = Row * Col / 8;
     int D[lengthP][8];
 
@@ -44,5 +51,14 @@ void EtoA(int *P, int *V, int *A, int t){
 
     for(int i = 0; i < lengthP; i++){
         decTObin(P[i], D[i]);
+    }
+
+    for(int i = 0; i < lengthP; i++){
+        for(int j = 0; j < 8; j++){
+            if(D[i][j] == 1){
+                *(A + i * 8 + j) = *(V + count);
+                count++;
+            }
+        }
     }
 }
