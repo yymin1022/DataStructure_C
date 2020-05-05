@@ -29,12 +29,12 @@ int main(){
         A_result[i] = 0;
     }
 
-//    EtoA(AP, AV, A_a, A_nonzero_elements);
-//    EtoA(BP, BV, A_b, B_nonzero_elements);
-//
-//    sum(A_a, A_b, A_result);
-//
-//    printResult(A_result);
+    EtoA(AP, AV, A_a, A_nonzero_elements);
+    EtoA(BP, BV, A_b, B_nonzero_elements);
+
+    sum(A_a, A_b, A_result);
+
+    printResult(A_result);
 
     return 0;
 }
@@ -43,7 +43,7 @@ int binTOdec(int *bin, int from, int to){
     int dec = 0;
 
     for(int i = to; i >= from; i--){
-        if(*(bin + i - from) == 1){
+        if(*(bin + i) == 1){
             dec += pow(2, 7 - i + from);
         }
     }
@@ -89,17 +89,34 @@ void EtoA(int *P, int *V, int *A, int t){
 void printResult(int *result){
     int DP[Row * Col / 8];
     int DV[Row * Col];
+    int resultBin[Row * Col];
     int t = 0;
+
+    for(int i = 0; i < Row * Col; i++){
+        resultBin[i] = 0;
+    }
 
     for(int i = 0; i < Row * Col; i++){
         if(result[i] != 0){
             DV[t] = result[i];
             t++;
+            resultBin[i] = 1;
         }
     }
 
     for(int i = 0; i < Row * Col / 8; i++){
-        DP[i] = binTOdec(result, i * 8, (i + 1) * 8 - 1);
+        DP[i] = binTOdec(resultBin, i * 8, (i + 1) * 8 - 1);
+    }
+
+    printf("row : %d\ncol : %d\nt : %d\nDP[] : ", Row, Col, t);
+    for(int i = 0; i < Row * Col / 8; i++) {
+        printf(" %d", DP[i]);
+    }
+    printf("\n");
+
+    printf("DV[] : ");
+    for(int i = 0; i < t; i++) {
+        printf(" %d", DV[i]);
     }
 }
 
