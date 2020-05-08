@@ -11,11 +11,11 @@ typedef struct{
 
 polynomial padd(polynomial, polynomial);
 
-float A_coef[A_nonzero_terms] = {2.0, 2.0, 3.0};
+float A_coef[A_nonzero_terms] = {4.0, 2.0, 3.0};
 int A_exp[A_nonzero_terms] = {7, 3, 2};
 
-float B_coef[B_nonzero_terms] = {4.0, 3.0, 7.0, 7.0};
-int B_exp[B_nonzero_terms] = {5, 3, 1, 0};
+float B_coef[B_nonzero_terms] = {-4.0, 3.0, 7.0, 7.0};
+int B_exp[B_nonzero_terms] = {7, 3, 1, 0};
 
 int main(){
     polynomial A, B, D;
@@ -56,7 +56,24 @@ int main(){
 
 polynomial padd(polynomial A, polynomial B){
     polynomial C;
-    C.degree = (A.degree > B.degree) ? A.degree : B.degree;
+
+    for(int i = 0; i < MAX_DEGREE; i++){
+        if(A.coef[i] + B.coef[i] != 0){
+            C.degree = (A.coef[i] > B.coef[i]) ? A.coef[i] : B.coef[i];
+            break;
+        }
+    }
+
+//    if(A.coef[0] + B.coef[0] == 0){
+//        for(int i = 1; i <= MAX_DEGREE; i++){
+//            if(A.coef[i] + B.coef[i] != 0){
+//                C.degree = (A.degree > B.degree) ? A.degree : B.degree;
+//                break;
+//            }
+//        }
+//    }else{
+//        C.degree = (A.degree > B.degree) ? A.degree : B.degree;
+//    }
 
     int offsetA = C.degree - A.degree;
     int offsetB = C.degree - B.degree;
