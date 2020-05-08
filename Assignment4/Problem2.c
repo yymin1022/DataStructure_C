@@ -8,7 +8,7 @@
 
 int binTOdec(int*, int, int);
 void decTObin(int, int*);
-void EtoA(int*, int*, int*, int);
+void EtoC(int*, int*, int*, int);
 void printResult(int*);
 void sum(int*, int*, int*);
 
@@ -19,22 +19,22 @@ int BP[(Row*Col)/8] = {65, 136};
 int BV[B_nonzero_elements] = {5, 2, 4, 1};
 
 int main(){
-    int A_a[Row * Col];
-    int A_b[Row * Col];
-    int A_result[Row * Col];
+    int C_a[Row * Col];
+    int C_b[Row * Col];
+    int C_result[Row * Col];
 
     for(int i = 0; i < Row * Col; i++){
-        A_a[i] = 0;
-        A_b[i] = 0;
-        A_result[i] = 0;
+        C_a[i] = 0;
+        C_b[i] = 0;
+        C_result[i] = 0;
     }
 
-    EtoA(AP, AV, A_a, A_nonzero_elements);
-    EtoA(BP, BV, A_b, B_nonzero_elements);
+    EtoC(AP, AV, C_a, A_nonzero_elements);
+    EtoC(BP, BV, C_b, B_nonzero_elements);
 
-    sum(A_a, A_b, A_result);
+    sum(C_a, C_b, C_result);
 
-    printResult(A_result);
+    printResult(C_result);
 
     return 0;
 }
@@ -61,7 +61,7 @@ void decTObin(int dec, int *bin){
     }
 }
 
-void EtoA(int *P, int *V, int *A, int t){
+void EtoC(int *P, int *V, int *C, int t){
     int count = 0;
     int lengthP = Row * Col / 8;
     int D[lengthP][8];
@@ -79,7 +79,7 @@ void EtoA(int *P, int *V, int *A, int t){
     for(int i = 0; i < lengthP; i++){
         for(int j = 0; j < 8; j++){
             if(D[i][j] == 1){
-                *(A + i * 8 + j) = *(V + count);
+                *(C + i * 8 + j) = *(V + count);
                 count++;
             }
         }
