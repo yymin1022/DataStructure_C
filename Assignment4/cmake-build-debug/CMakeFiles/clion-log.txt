@@ -1,4 +1,4 @@
-"/Users/yymin1022/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4"
+"/Users/yymin1022/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4"
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug

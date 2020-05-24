@@ -48,10 +48,10 @@ RM = "/Users/yymin1022/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4"
+CMAKE_SOURCE_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles" "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment4/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment4
+# Target rules for targets named Assignment5
 
 # Build rule for target.
-Assignment4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Assignment4
-.PHONY : Assignment4
+Assignment5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Assignment5
+.PHONY : Assignment5
 
 # fast build rule for target.
-Assignment4/fast:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/build
-.PHONY : Assignment4/fast
+Assignment5/fast:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/build
+.PHONY : Assignment5/fast
 
-Problem2.o: Problem2.c.o
+main.o: main.c.o
 
-.PHONY : Problem2.o
+.PHONY : main.o
 
 # target to build an object file
-Problem2.c.o:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem2.c.o
-.PHONY : Problem2.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/main.c.o
+.PHONY : main.c.o
 
-Problem2.i: Problem2.c.i
+main.i: main.c.i
 
-.PHONY : Problem2.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Problem2.c.i:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem2.c.i
-.PHONY : Problem2.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/main.c.i
+.PHONY : main.c.i
 
-Problem2.s: Problem2.c.s
+main.s: main.c.s
 
-.PHONY : Problem2.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Problem2.c.s:
-	$(MAKE) -f CMakeFiles/Assignment4.dir/build.make CMakeFiles/Assignment4.dir/Problem2.c.s
-.PHONY : Problem2.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Assignment4"
-	@echo "... Problem2.o"
-	@echo "... Problem2.i"
-	@echo "... Problem2.s"
+	@echo "... Assignment5"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
