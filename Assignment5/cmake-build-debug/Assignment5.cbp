@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/main.c">
+		<Unit filename="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/Problem1.c">
 			<Option target="Assignment5"/>
 		</Unit>
 		<Unit filename="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/CMakeLists.txt">

@@ -57,27 +57,27 @@ include CMakeFiles/Assignment5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment5.dir/flags.make
 
-CMakeFiles/Assignment5.dir/main.c.o: CMakeFiles/Assignment5.dir/flags.make
-CMakeFiles/Assignment5.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment5.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment5.dir/main.c.o   -c "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/main.c"
+CMakeFiles/Assignment5.dir/Problem1.c.o: CMakeFiles/Assignment5.dir/flags.make
+CMakeFiles/Assignment5.dir/Problem1.c.o: ../Problem1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment5.dir/Problem1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Assignment5.dir/Problem1.c.o   -c "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/Problem1.c"
 
-CMakeFiles/Assignment5.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment5.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/main.c" > CMakeFiles/Assignment5.dir/main.c.i
+CMakeFiles/Assignment5.dir/Problem1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment5.dir/Problem1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/Problem1.c" > CMakeFiles/Assignment5.dir/Problem1.c.i
 
-CMakeFiles/Assignment5.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment5.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/main.c" -o CMakeFiles/Assignment5.dir/main.c.s
+CMakeFiles/Assignment5.dir/Problem1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment5.dir/Problem1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/Problem1.c" -o CMakeFiles/Assignment5.dir/Problem1.c.s
 
 # Object files for target Assignment5
 Assignment5_OBJECTS = \
-"CMakeFiles/Assignment5.dir/main.c.o"
+"CMakeFiles/Assignment5.dir/Problem1.c.o"
 
 # External object files for target Assignment5
 Assignment5_EXTERNAL_OBJECTS =
 
-Assignment5: CMakeFiles/Assignment5.dir/main.c.o
+Assignment5: CMakeFiles/Assignment5.dir/Problem1.c.o
 Assignment5: CMakeFiles/Assignment5.dir/build.make
 Assignment5: CMakeFiles/Assignment5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/LocalDisk/AppProjects/C Projects/DataStructure_C/Assignment5/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Assignment5"
