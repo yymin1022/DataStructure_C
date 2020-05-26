@@ -7,6 +7,8 @@ typedef struct listNode{
     listPointer link;
 };
 
+listPointer invert(listPointer);
+
 int main(){
     struct listNode* L0 = (listPointer*)malloc(sizeof(listPointer));
     L0 -> link = NULL;
@@ -20,7 +22,7 @@ int main(){
     L2 -> link = L1 -> link;
     L2 -> data = 20;
     L1 -> link = L2;
-    
+
     return 0;
 }
 
