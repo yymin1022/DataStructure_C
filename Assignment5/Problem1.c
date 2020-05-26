@@ -3,14 +3,24 @@
 
 typedef struct listNode *listPointer;
 typedef struct listNode{
-    char data;
+    int data;
     listPointer link;
 };
 
 int main(){
-    struct listNode* head = (listPointer*)malloc(sizeof(listPointer));
-    head -> link = NULL;
+    struct listNode* L0 = (listPointer*)malloc(sizeof(listPointer));
+    L0 -> link = NULL;
 
+    struct listNode* L1 = (listPointer*)malloc(sizeof(listPointer));
+    L1 -> link = L0 -> link;
+    L1 -> data = 10;
+    L0 -> link = L1;
+
+    struct listNode* L2 = (listPointer*)malloc(sizeof(listPointer));
+    L2 -> link = L1 -> link;
+    L2 -> data = 20;
+    L1 -> link = L2;
+    
     return 0;
 }
 
