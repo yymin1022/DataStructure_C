@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct listNode *listPointer;
 typedef struct listNode{
@@ -7,7 +8,9 @@ typedef struct listNode{
 };
 
 int main(){
-    printf("Hello, World!\n");
+    struct listNode* head = (listPointer*)malloc(sizeof(listPointer));
+    head -> link = NULL;
+
     return 0;
 }
 
