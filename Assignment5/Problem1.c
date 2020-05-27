@@ -20,6 +20,12 @@ int main(){
     L2 -> data = 20;
     L1 -> link = L2;
 
+    printList(L1);
+
+    struct listNode* invertList = invert(L1);
+
+    printList(invertList);
+
     return 0;
 }
 
