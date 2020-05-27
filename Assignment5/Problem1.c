@@ -8,15 +8,12 @@ typedef struct listNode{
 };
 
 listPointer invert(listPointer);
+void printList(listPointer);
 
 int main(){
-    struct listNode* L0 = (listPointer*)malloc(sizeof(listPointer));
-    L0 -> link = NULL;
-
     struct listNode* L1 = (listPointer*)malloc(sizeof(listPointer));
-    L1 -> link = L0 -> link;
+    L1 -> link = NULL;
     L1 -> data = 10;
-    L0 -> link = L1;
 
     struct listNode* L2 = (listPointer*)malloc(sizeof(listPointer));
     L2 -> link = L1 -> link;
@@ -37,4 +34,11 @@ listPointer invert(listPointer lead){
         middle -> link = trail;
     }
     return middle;
+}
+
+void printList(listPointer pointer){
+    while(pointer != NULL){
+        printf("%d\n", pointer -> data);
+        pointer = pointer -> link;
+    }
 }
