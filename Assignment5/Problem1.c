@@ -92,9 +92,7 @@ listPointer invert(listPointer lead){
         }else{
             printf(" - Lead : Null\n");
         }
-        
 
-//        printf("Current Process %d\n - Trail : %p\n - Middle : %p, Middle Data : %d, Middle Link : %p\n - Lead : %p\n", invertCount, trail, middle, middle->data, middle->link, lead);
         invertCount++;
     }
 
