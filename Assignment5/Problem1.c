@@ -25,7 +25,7 @@ int main(){
 
     struct listNode* invertList = invert(L1);
 
-    printf("\nLinked List after` Invert\n");
+    printf("Linked List after Invert\n");
     printList(invertList);
 
     return 0;
@@ -40,13 +40,16 @@ listPointer invert(listPointer lead){
         middle = lead;
         lead = lead -> link;
         middle -> link = trail;
+
+        printf("Current State - Trail : %p, Middle : %p, Lead : %p\n", trail, middle, lead);
     }
+
     return middle;
 }
 
 void printList(listPointer pointer){
     while(pointer != NULL){
-        printf("%d\n", pointer -> data);
+        printf("Address : %p, Data : %d, Link : %p\n", pointer, pointer -> data, pointer->link);
         pointer = pointer -> link;
     }
 }
