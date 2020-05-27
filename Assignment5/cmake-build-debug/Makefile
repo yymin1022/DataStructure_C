@@ -124,32 +124,32 @@ Assignment5\fast:
 	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\build
 .PHONY : Assignment5\fast
 
-Problem1.obj: Problem1.c.obj
+Problem2.obj: Problem2.c.obj
 
-.PHONY : Problem1.obj
+.PHONY : Problem2.obj
 
 # target to build an object file
-Problem1.c.obj:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem1.c.obj
-.PHONY : Problem1.c.obj
+Problem2.c.obj:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem2.c.obj
+.PHONY : Problem2.c.obj
 
-Problem1.i: Problem1.c.i
+Problem2.i: Problem2.c.i
 
-.PHONY : Problem1.i
+.PHONY : Problem2.i
 
 # target to preprocess a source file
-Problem1.c.i:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem1.c.i
-.PHONY : Problem1.c.i
+Problem2.c.i:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem2.c.i
+.PHONY : Problem2.c.i
 
-Problem1.s: Problem1.c.s
+Problem2.s: Problem2.c.s
 
-.PHONY : Problem1.s
+.PHONY : Problem2.s
 
 # target to generate assembly for a file
-Problem1.c.s:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem1.c.s
-.PHONY : Problem1.c.s
+Problem2.c.s:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment5.dir\Problem2.c.s
+.PHONY : Problem2.c.s
 
 # Help Target
 help:
@@ -160,9 +160,9 @@ help:
 	@echo ... Assignment5
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Problem1.obj
-	@echo ... Problem1.i
-	@echo ... Problem1.s
+	@echo ... Problem2.obj
+	@echo ... Problem2.i
+	@echo ... Problem2.s
 .PHONY : help
 
 
