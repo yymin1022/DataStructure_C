@@ -20,10 +20,12 @@ int main(){
     L2 -> data = 20;
     L1 -> link = L2;
 
+    printf("Linked List before Invert\n");
     printList(L1);
 
     struct listNode* invertList = invert(L1);
 
+    printf("\nLinked List after` Invert\n");
     printList(invertList);
 
     return 0;
