@@ -26,7 +26,7 @@ int main() {
     struct listNode* invertCL2 = cinvert(CL2_0);
 
     printf("Circular Linked List after Invert\n");
-    printList(CL2_0);
+    printList(invertCL2);
 
     return 0;
 }
@@ -34,7 +34,7 @@ int main() {
 listPointer cinvert(listPointer lead){
     listPointer middle, trail;
     listPointer startPoint = lead;
-    middle = NULL;
+    middle = lead->link;
 
     int count = 0;
 
