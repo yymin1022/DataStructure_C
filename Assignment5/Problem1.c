@@ -102,7 +102,7 @@ listPointer invert(listPointer lead){
 }
 
 void printList(listPointer pointer){
-    while(pointer != NULL){
+    while(pointer){
         printf("Address : %p, Data : %d, Link : %p\n", pointer, pointer -> data, pointer->link);
         pointer = pointer -> link;
     }

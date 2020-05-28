@@ -33,13 +33,18 @@ int main() {
 
 listPointer cinvert(listPointer lead){
     listPointer middle, trail;
+    listPointer startPoint = lead;
     middle = NULL;
 
-    while(lead){
+    int count = 0;
+
+    while(lead != startPoint || count == 0){
         trail = middle;
         middle = lead;
         lead = lead -> link;
         middle -> link = trail;
+
+        count = 1;
     }
 
     return middle;
