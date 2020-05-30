@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/AppProjects/C Projects/DataStructure_C/Assignment6/main.c" "D:/AppProjects/C Projects/DataStructure_C/Assignment6/cmake-build-debug/CMakeFiles/Assignment6.dir/main.c.obj"
+  "D:/AppProjects/C Projects/DataStructure_C/Assignment6/Problem1.c" "D:/AppProjects/C Projects/DataStructure_C/Assignment6/cmake-build-debug/CMakeFiles/Assignment6.dir/Problem1.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

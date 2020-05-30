@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "Assignment6.exe.manifest"
   "Assignment6.lib"
   "Assignment6.pdb"
-  "CMakeFiles/Assignment6.dir/main.c.obj"
+  "CMakeFiles/Assignment6.dir/Problem1.c.obj"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/AppProjects/C Projects/DataStructure_C/Assignment6/main.c">
+		<Unit filename="D:/AppProjects/C Projects/DataStructure_C/Assignment6/Problem1.c">
 			<Option target="Assignment6"/>
 		</Unit>
 		<Unit filename="D:/AppProjects/C Projects/DataStructure_C/Assignment6/CMakeLists.txt">
