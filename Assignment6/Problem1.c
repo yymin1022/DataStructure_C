@@ -10,9 +10,18 @@ void adjust(element[], int, int);
 void heapSort(element[], int);
 
 int main(){
-    int a[11] = {1234, 3423, 4656, 3456, 3456, 2345, 9374, 7283, 3948, 5594, 3959};
-    
-    printf("Hello, World!\n");
+    int num[] = {0, 2434, 3423, 4656, 3456, 3454, 2345, 9374, 7283, 3948, 5594, 3959};
+    element a[12];
+
+    for(int i = 0; i < 12; i++){
+        a[i].key = num[i];
+    }
+
+    heapSort(a, 11);
+
+    for(int i = 0; i < 12; i++){
+        printf("%d ", a[i].key);
+    }
     return 0;
 }
 
