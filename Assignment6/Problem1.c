@@ -9,7 +9,9 @@ typedef struct{
 void adjust(element[], int, int);
 void heapSort(element[], int);
 
-int main() {
+int main(){
+    int a[11] = {1234, 3423, 4656, 3456, 3456, 2345, 9374, 7283, 3948, 5594, 3959};
+    
     printf("Hello, World!\n");
     return 0;
 }
