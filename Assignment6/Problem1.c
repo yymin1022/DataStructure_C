@@ -43,6 +43,8 @@ void adjust(element a[], int root, int n){
         }
     }
     a[child / 2] = temp;
+
+    printArray(a);
 }
 
 void heapSort(element a[], int n){
@@ -60,9 +62,6 @@ void heapSort(element a[], int n){
 }
 
 void printArray(element a[]){
-    printf("element a[] is [%d", a[1].key);
-    for(int i = 2; i < 12; i++){
-        printf(", %d", a[i].key);
-    }
-    printf("]");
+    printf("Current element a[] tree is\n");
+    printf("[%d]%d\n[%d]%d [%d]%d\n[%d]%d [%d]%d [%d]%d [%d]%d\n[%d]%d [%d]%d [%d]%d [%d]%d\n\n", 1, a[1].key, 2, a[2].key, 3, a[3].key, 4, a[4].key, 5, a[5].key, 6, a[6].key, 7, a[7].key, 8, a[8].key, 9, a[9].key, 10, a[10].key, 11, a[11].key);
 }
