@@ -10,17 +10,19 @@ void adjust(element[], int, int);
 void heapSort(element[], int);
 void printArray(element[]);
 
+int adjustCount = 0;
+
 int main(){
-    int num[] = {0, 2434, 3423, 4656, 3456, 3454, 2345, 9374, 7283, 3948, 5594, 3959};
+    int num[] = {0, 1111, 3333, 5555, 7777, 9999, 8888, 6666, 4444, 2222, 1111, 9999};
     element a[12];
 
     for(int i = 0; i < 12; i++){
         a[i].key = num[i];
     }
 
-    heapSort(a, 11);
-
     printArray(a);
+
+    heapSort(a, 11);
     return 0;
 }
 
@@ -44,6 +46,7 @@ void adjust(element a[], int root, int n){
     }
     a[child / 2] = temp;
 
+    adjustCount++;
     printArray(a);
 }
 
@@ -62,6 +65,6 @@ void heapSort(element a[], int n){
 }
 
 void printArray(element a[]){
-    printf("Current element a[] tree is\n");
+    printf("%d : Current element a[] tree is\n", adjustCount);
     printf("[%d]%d\n[%d]%d [%d]%d\n[%d]%d [%d]%d [%d]%d [%d]%d\n[%d]%d [%d]%d [%d]%d [%d]%d\n\n", 1, a[1].key, 2, a[2].key, 3, a[3].key, 4, a[4].key, 5, a[5].key, 6, a[6].key, 7, a[7].key, 8, a[8].key, 9, a[9].key, 10, a[10].key, 11, a[11].key);
 }
