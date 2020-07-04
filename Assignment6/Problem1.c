@@ -33,6 +33,7 @@ void adjust(element a[], int root, int n){
     child = root * 2;
 
     while(child <= n){
+
         if((child < n) && (a[child].key < a[child + 1].key)){
             child++;
         }

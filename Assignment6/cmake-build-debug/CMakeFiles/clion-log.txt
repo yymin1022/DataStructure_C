@@ -1,4 +1,4 @@
-C:\Users\yymin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\AppProjects\C Projects\DataStructure_C\Assignment6"
+C:\Users\yymin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\AppProjects\C Projects\DataStructure_C\Assignment6"
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/AppProjects/C Projects/DataStructure_C/Assignment6/cmake-build-debug
