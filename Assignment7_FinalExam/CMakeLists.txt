@@ -3,4 +3,4 @@ project(Assignment7_FinalExam C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Assignment7_FinalExam main.c)
+add_executable(Assignment7_FinalExam Problem1.c)
