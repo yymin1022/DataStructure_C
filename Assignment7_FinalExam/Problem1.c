@@ -36,7 +36,7 @@ int main(){
     }
 
     for(int i = 0; i < MaxRow; i++){
-
+        addNode(&bstNode, mh[i][0], mh[i][1]);
     }
 
     return 0;
@@ -82,5 +82,6 @@ node* searchNode(node** treeNode, int value){
 }
 
 void addNode(node** treeNode, int  key, int value){
-
+    node* valueNode = searchNode(treeNode, key);
+    valueNode -> value += value;
 }
