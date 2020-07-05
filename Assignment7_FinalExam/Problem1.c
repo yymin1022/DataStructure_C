@@ -11,6 +11,7 @@ typedef struct node{
 node* insertNode(node**, int, int);
 node* searchNode(node**, int, int);
 void addNode(node**, int, int);
+void printNode(node**);
 
 int bst[MaxRow][2] = {
         {3, 17},
@@ -87,4 +88,8 @@ node* searchNode(node** treeNode, int key, int value){
 void addNode(node** treeNode, int  key, int value){
     node* valueNode = searchNode(treeNode, key, value);
     valueNode -> value += value;
+}
+
+void printNode(node** treeNode){
+
 }
