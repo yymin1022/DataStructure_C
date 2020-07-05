@@ -8,7 +8,9 @@ typedef struct node{
     struct node *left, *right, *parent;
 }node;
 
+node* addNode(node**, int);
 node* insertNode(node**, int, int);
+node* searchNode(node**, int);
 
 int bst[MaxRow][2] = {
         {3, 17},
@@ -31,6 +33,10 @@ int main(){
 
     for(int i = 0; i < MaxRow; i++){
         insertNode(&bstNode, bst[i][0], bst[i][1]);
+    }
+
+    for(int i = 0; i < MaxRow; i++){
+
     }
 
     return 0;
@@ -57,4 +63,10 @@ node* insertNode(node** treeNode, int key, int value){
     }
     
     return *treeNode;
+}
+
+node* search(node** treeNode, int value){
+    node* resultNode = (node*)malloc(sizeof(node));
+
+    return resultNode;
 }
