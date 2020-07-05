@@ -2,6 +2,11 @@
 
 #define MaxRow 5
 
+typedef struct node{
+    int data;
+    struct node *left, *right, *parent;
+}node;
+
 int bst[MaxRow][2] = {
         {3, 17},
         {1, 18},
