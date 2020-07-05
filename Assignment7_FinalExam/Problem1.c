@@ -4,11 +4,11 @@
 #define MaxRow 5
 
 typedef struct node{
-    int data;
+    int key, value;
     struct node *left, *right, *parent;
 }node;
 
-node* insertNode(node**, int);
+node* insertNode(node**, int, int);
 
 int bst[MaxRow][2] = {
         {3, 17},
@@ -26,32 +26,33 @@ int mh[MaxRow][2] = {
         {7, 17}
 };
 
-int main() {
+int main(){
     node* bstNode;
 
     for(int i = 0; i < MaxRow; i++){
-
+        insertNode()
     }
 
     return 0;
 }
 
-node* insertNode(node** treeNode, int data){
+node* insertNode(node** treeNode, int key, int value){
     node* resultNode = (node*)malloc(sizeof(node));
 
     if(*treeNode == NULL){
-        resultNode -> data = data;
+        resultNode -> key = key;
+        resultNode -> value = value;
         resultNode -> left = NULL;
         resultNode -> right = NULL;
         *treeNode = resultNode;
         return resultNode;
     }
 
-    if((*treeNode) -> data > data){
-        resultNode = insertNode(&(*treeNode) -> left, data);
+    if((*treeNode) -> key > key){
+        resultNode = insertNode(&(*treeNode) -> left, key, value);
         resultNode -> parent = *treeNode;
-    }else if((*treeNode)->data < data){
-        resultNode = insertNode(&(*treeNode) -> right, data);
+    }else if((*treeNode) -> key < key){
+        resultNode = insertNode(&(*treeNode) -> right, key, value);
         resultNode -> parent = *treeNode;
     }
     
