@@ -9,7 +9,7 @@ typedef struct node{
 }node;
 
 node* insertNode(node**, int, int);
-node* searchNode(node**, int);
+node* searchNode(node**, int, int);
 void addNode(node**, int, int);
 
 int bst[MaxRow][2] = {
@@ -65,23 +65,28 @@ node* insertNode(node** treeNode, int key, int value){
     return *treeNode;
 }
 
-node* searchNode(node** treeNode, int value){
+node* searchNode(node** treeNode, int key, int value){
     node* resultNode = (node*)malloc(sizeof(node));
 
-    if((*treeNode) -> key == value){
+    if(*treeNode == NULL){
+        insertNode(treeNode, key, value);
+        return resultNode;
+    }
+
+    if((*treeNode) -> key == key){
         return *treeNode;
     }
 
-    if((*treeNode) -> key > value){
-        resultNode = searchNode(&((*treeNode) -> left), value);
+    if((*treeNode) -> key > key){
+        resultNode = searchNode(&((*treeNode) -> left), key, value);
     }else{
-        resultNode = searchNode(&((*treeNode) -> right), value);
+        resultNode = searchNode(&((*treeNode) -> right), key, value);
     }
 
     return resultNode;
 }
 
 void addNode(node** treeNode, int  key, int value){
-    node* valueNode = searchNode(treeNode, key);
+    node* valueNode = searchNode(treeNode, key, value);
     valueNode -> value += value;
 }
