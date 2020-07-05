@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MaxRow 5
 
@@ -6,6 +7,8 @@ typedef struct node{
     int data;
     struct node *left, *right, *parent;
 }node;
+
+node* insertNode(node**, int);
 
 int bst[MaxRow][2] = {
         {3, 17},
@@ -24,6 +27,15 @@ int mh[MaxRow][2] = {
 };
 
 int main() {
-    printf("Hello, World!\n");
+    node* bstNode;
+
+    for(int i = 0; i < MaxRow; i++){
+
+    }
+
     return 0;
+}
+
+node* insertNode(node** tree, int data){
+    return *tree;
 }
