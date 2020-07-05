@@ -5,7 +5,7 @@
 
 typedef struct node{
     int key, value;
-    struct node *left, *right, *parent;
+    struct node *left, *right;
 }node;
 
 node* insertNode(node**, int, int);
@@ -56,10 +56,8 @@ node* insertNode(node** treeNode, int key, int value){
 
     if((*treeNode) -> key > key){
         resultNode = insertNode(&(*treeNode) -> left, key, value);
-        resultNode -> parent = *treeNode;
     }else if((*treeNode) -> key < key){
         resultNode = insertNode(&(*treeNode) -> right, key, value);
-        resultNode -> parent = *treeNode;
     }
     
     return *treeNode;
