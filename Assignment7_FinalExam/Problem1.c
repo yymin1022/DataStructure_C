@@ -27,10 +27,10 @@ int mh[MaxRow][2] = {
 };
 
 int main(){
-    node* bstNode;
+    node* bstNode = NULL;
 
     for(int i = 0; i < MaxRow; i++){
-        insertNode()
+        insertNode(&bstNode, bst[i][0], bst[i][1]);
     }
 
     return 0;

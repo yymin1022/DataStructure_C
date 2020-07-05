@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AppProjects/C Projects/DataStructure_C/Assignment7_FinalExam/Problem1.c
+stdio.h
+-
+stdlib.h
+-
+

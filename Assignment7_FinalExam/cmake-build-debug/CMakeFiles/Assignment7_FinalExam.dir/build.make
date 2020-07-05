@@ -56,27 +56,27 @@ include CMakeFiles/Assignment7_FinalExam.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment7_FinalExam.dir/flags.make
 
-CMakeFiles/Assignment7_FinalExam.dir/main.c.obj: CMakeFiles/Assignment7_FinalExam.dir/flags.make
-CMakeFiles/Assignment7_FinalExam.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment7_FinalExam.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment7_FinalExam.dir\main.c.obj   -c "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\main.c"
+CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.obj: CMakeFiles/Assignment7_FinalExam.dir/flags.make
+CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.obj: ../Problem1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Assignment7_FinalExam.dir\Problem1.c.obj   -c "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\Problem1.c"
 
-CMakeFiles/Assignment7_FinalExam.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment7_FinalExam.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\main.c" > CMakeFiles\Assignment7_FinalExam.dir\main.c.i
+CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\Problem1.c" > CMakeFiles\Assignment7_FinalExam.dir\Problem1.c.i
 
-CMakeFiles/Assignment7_FinalExam.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment7_FinalExam.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\main.c" -o CMakeFiles\Assignment7_FinalExam.dir\main.c.s
+CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\AppProjects\C Projects\DataStructure_C\Assignment7_FinalExam\Problem1.c" -o CMakeFiles\Assignment7_FinalExam.dir\Problem1.c.s
 
 # Object files for target Assignment7_FinalExam
 Assignment7_FinalExam_OBJECTS = \
-"CMakeFiles/Assignment7_FinalExam.dir/main.c.obj"
+"CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.obj"
 
 # External object files for target Assignment7_FinalExam
 Assignment7_FinalExam_EXTERNAL_OBJECTS =
 
-Assignment7_FinalExam.exe: CMakeFiles/Assignment7_FinalExam.dir/main.c.obj
+Assignment7_FinalExam.exe: CMakeFiles/Assignment7_FinalExam.dir/Problem1.c.obj
 Assignment7_FinalExam.exe: CMakeFiles/Assignment7_FinalExam.dir/build.make
 Assignment7_FinalExam.exe: CMakeFiles/Assignment7_FinalExam.dir/linklibs.rsp
 Assignment7_FinalExam.exe: CMakeFiles/Assignment7_FinalExam.dir/objects1.rsp
