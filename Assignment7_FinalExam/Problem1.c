@@ -68,5 +68,15 @@ node* insertNode(node** treeNode, int key, int value){
 node* search(node** treeNode, int value){
     node* resultNode = (node*)malloc(sizeof(node));
 
+    if((*treeNode) -> value == value){
+        return *treeNode;
+    }
+
+    if((*treeNode) -> value > value){
+        resultNode = search(&((*treeNode) -> left), value);
+    }else{
+        resultNode = search(&((*treeNode) -> right), value);
+    }
+
     return resultNode;
 }
