@@ -40,6 +40,8 @@ int main(){
         addNode(&bstNode, mh[i][0], mh[i][1]);
     }
 
+    printNode(&bstNode);
+
     return 0;
 }
 
