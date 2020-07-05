@@ -8,9 +8,9 @@ typedef struct node{
     struct node *left, *right, *parent;
 }node;
 
-node* addNode(node**, int);
 node* insertNode(node**, int, int);
 node* searchNode(node**, int);
+void addNode(node**, int, int);
 
 int bst[MaxRow][2] = {
         {3, 17},
@@ -68,15 +68,19 @@ node* insertNode(node** treeNode, int key, int value){
 node* searchNode(node** treeNode, int value){
     node* resultNode = (node*)malloc(sizeof(node));
 
-    if((*treeNode) -> value == value){
+    if((*treeNode) -> key == value){
         return *treeNode;
     }
 
-    if((*treeNode) -> value > value){
+    if((*treeNode) -> key > value){
         resultNode = searchNode(&((*treeNode) -> left), value);
     }else{
         resultNode = searchNode(&((*treeNode) -> right), value);
     }
 
     return resultNode;
+}
+
+void addNode(node** treeNode, int  key, int value){
+
 }
