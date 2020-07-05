@@ -36,6 +36,24 @@ int main() {
     return 0;
 }
 
-node* insertNode(node** tree, int data){
-    return *tree;
+node* insertNode(node** treeNode, int data){
+    node* resultNode = (node*)malloc(sizeof(node));
+
+    if(*treeNode == NULL){
+        resultNode -> data = data;
+        resultNode -> left = NULL;
+        resultNode -> right = NULL;
+        *treeNode = resultNode;
+        return resultNode;
+    }
+
+    if((*treeNode) -> data > data){
+        resultNode = insertNode(&(*treeNode) -> left, data);
+        resultNode -> parent = *treeNode;
+    }else if((*treeNode)->data < data){
+        resultNode = insertNode(&(*treeNode) -> right, data);
+        resultNode -> parent = *treeNode;
+    }
+    
+    return *treeNode;
 }
